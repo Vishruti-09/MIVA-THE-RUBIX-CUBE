@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIVA Car Booking Form</title>
+    <link rel="stylesheet" href="style.css">
+     <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="style.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo"><img src="MIVALOGO.jpeg" height="auto" width="40%"></a>
+        <nac class="navigation">
+            <a href="ContactUs.html">Contact Us</a>
+      <a href="Reviews.html">Reviews</a>
+      <a href="MIVALOGIN.html">Login</a>
+      <a href="Doctors.html">Doctors</a>
+      <a href="AboutUs.html">About Us</a>
+      <a href="Services.html">Services</a>
+      <a href="index.html">Home</a>
+        </nac>
+      </header>
+
+    <div class="container"><!--container-->
+
+        <form class="form-group" onsubmit="return validateForm()" required><!--form-->
+            <h1 class="text-center"><strong>Book A MIVA Car</strong></h1>
+
+            <div id="form"><!--form-->
+                <h2 class="text-black"><strong><em>Booking Details</em></strong></h2>
+                <br>
+            <div id="input"><!--input-->
+                <input type="text" id="input-group" name="From" placeholder="From" required>
+                <input type="text" id="input-group" name="HospitalDestination" placeholder="Hospital Destination" required><br>
+                <br>
+                <input type="date" id="input-group" name="Date" placeholder="dd-mm-yyyy" required>
+                <input type="time" id="input-group" name="Time" placeholder="Time(am/pm)" required><br>
+                <br>
+                <select  id="input-group" style="background: rgb(250, 250, 250);">
+                    <option value="BookingType" required>Booking Type</option>
+                    <option value="">Emergency</option>
+                    <option value="">Admittance</option>
+                </select><br>
+                <br>
+                </div><!--input-->
+
+                <div id="input2"><!--input2-->
+                    <select  id="input-group" style="background: rgb(253, 253, 253);">
+                        <option value="PatientAge" required>Patient Age</option>
+                        <option value="">Adult (18+)</option>
+                        <option value="">Young Adult (13-18)</option>
+                        <option value="">Infant</option>
+                </div><!--input2-->
+                
+                <div id="input4"><!--input4-->
+                    <input type="text" id="input-group1" name="AnyMessage" placeholder="Any Message">
+                </div><!--input4-->
+                    <br>
+                <div id="input5"><!--input5-->
+                    <h2 class="text-black"><strong><em>Personal Details</em></strong></h2>
+                </div><!--input5-->
+                <br>
+                <div id="input6"><!--input6-->
+                    <input type="text" id="input-group" name="FullName" placeholder="Full Name" required>
+                    <input type="text" id="input-group" name="PhoneNumber" placeholder="Phone Number" required><br>
+                    <br>
+                    <input type="email" id="input-group" placeholder="Email" required>
+                </div><!--input6-->
+                <br>
+                <div id="buttons">
+                <a href="Payment.html" class="btn btn-primary"> PAY </a>
+                <input type="reset" class="btn btn-primary" value="Clear Form"></input>
+                </div>
+            </div><!--form-->
+
+        </form><!--form-->
+
+    </div><!--container-->
+<!-- <script src="BookingaMIVACar.js"></script> -->
+</body>
+</html>

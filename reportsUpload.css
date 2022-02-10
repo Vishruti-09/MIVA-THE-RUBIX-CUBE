@@ -1,0 +1,104 @@
+html{
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  *{
+    font-family: 'Cambria', sans-serif;
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+    text-decoration: none;
+  }
+  h1 {
+    color: #16a085;
+    font-size: 3rem;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .header {
+    overflow: hidden;
+    background-color: #16a085;
+    padding: 30px;
+    color: black;
+  }
+  
+  .header a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 10px; 
+    line-height: 20px;
+    border-radius: 4px;
+  }
+  
+  .header .logo{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0%;
+    
+  }
+  
+  .header .navigation a{
+    float: right;
+    font-size: 1.7rem;
+    color: #ffffff;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+  }
+  .form-group{
+      background: #ffffff;
+      margin-left: 30rem;
+      margin-right: 30rem;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+  }
+  .buttons{
+      text-align: center;
+      padding-bottom: 1rem;
+
+  }
+  .form-control{
+      text-align: center;
+
+  }
+  h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Abel', sans-serif;
+}
+p{
+    line-height: 8px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.btn{
+    padding-top: 5px;
+    margin-top: 10px;
+    
+    
+}
+.form-group{
+    text-align: center;
+    
+}
+.one{
+    text-align: center;
+    margin-left: 500px;
+}
+#form{
+    text-align: center;
+
+}
+.row-uploadDoc{
+	border-left: 500px;
+}
+.two{
+	margin-left: 10px;
+}

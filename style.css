@@ -1,0 +1,144 @@
+html{
+    background-image: url(https://wallpaperaccess.com/full/1282794.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  *{
+    font-family: 'Cambria', sans-serif;
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+    text-decoration: none;
+  }
+  
+  .header {
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 10px;
+  }
+  
+  .header a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 10px; 
+    line-height: 20px;
+    border-radius: 4px;
+  }
+  
+  .header .logo{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0%;
+    
+  }
+  
+  .header .navigation a{
+    float: right;
+    font-size: 1.7rem;
+    color: #16a085;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+  }
+
+.text-center{
+    text-align: center;
+}
+#form{
+    background-color: rgb(255, 255, 255);
+    height:500px;
+    width:700px;
+    margin:auto;
+    padding:20px;
+}
+h1{
+    font-size: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+#form h2{
+    border-bottom: 2px solid #080808;
+    width:210px;
+    padding: 5px;
+}
+::placeholder{
+    color:rgb(12, 12, 12)
+}
+#input #input-group{
+    width:300px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:rgb(3, 3, 3)
+}
+#input2 #input-group{
+    width:195px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:rgb(10, 10, 10)
+}
+#input3 #input-group{
+    margin-left: 50px;
+}
+#input4 #input-group{
+    width:300px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:rgb(7, 7, 7)
+}
+#input4 #input-group1{
+    width:615px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:rgb(14, 13, 13)
+}
+#input5 h3{
+    border-bottom: 2px solid #3399ff;
+    width:220px;
+    padding: 5px;
+}
+#input6 #input-group{
+    width:300px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:rgb(0, 0, 0)
+}
+#input6 #input-group1{
+    width:615px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:rgb(15, 15, 15)
+}
+#buttons{
+    text-align: center;
+    font-size: 3rem;
+}

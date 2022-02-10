@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Upload</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="reportsUpload.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+    function Submit() {
+       if (!document.getElementById) return;
+       var sentence=document.changeform.sentence.value;
+       var node=document.createTextNode(" " + sentence);
+       document.getElementById("paragraph1").appendChild(node);
+       document.changeform.sentence.value="";
+    }
+    </script> 
+
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo"><img src="MIVALOGO.jpeg" height="auto" width="40%"></a>
+    <nac class="navigation">
+      <a href="ContactUs.html">Contact Us</a>
+      <a href="Reviews.html">Reviews</a>
+      <a href="MIVALOGIN.html">Login</a>
+      <a href="Doctors.html">Doctors</a>
+      <a href="AboutUs.html">About Us</a>
+      <a href="Services.html">Services</a>
+      <a href="index.html">Home</a>
+    </nac>
+  </header>
+
+    <div class="form-group">
+
+     <h1>Upload Reports</h1>
+     <p>Please Upload Documents Only In </p>
+      <p> 'pdf', 'docx', 'rtf', 'jpg', 'jpeg', 'png' & 'text' format</p>
+    </div> 
+    <!-- Form -->
+    <section id="form">
+        <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">MY Document</label>
+              <div class="docErr">Please upload valid file</div><!--error-->
+              <div class="fileUpload btn btn-orange">
+                <input type="file" class="upload up" id="up" onchange="readURL(this);" />
+              </div><!-- btn-orange -->
+      
+              <small id="emailHelp" class="form-text text-muted"></small>
+          
+          
+            <p id="paragraph1"></p>
+            <form name="changeform" class="buttons">
+                
+          
+            <button type="button" class="two btn btn-success" onclick="Summit();">Submit</button>
+            </div>
+            </form>
+          </form>
+          
+    </section>
+    
+</body>
+</html>

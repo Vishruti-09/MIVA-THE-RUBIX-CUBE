@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="Payment.css">
+
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo"><img src="MIVALOGO.jpeg" height="auto" width="40%"></a>
+    <nac class="navigation">
+      <a href="ContactUs.html">Contact Us</a>
+      <a href="Reviews.html">Reviews</a>
+      <a href="MIVALOGIN.html">Login</a>
+      <a href="Doctors.html">Doctors</a>
+      <a href="AboutUs.html">About Us</a>
+      <a href="Services.html">Services</a>
+      <a href="index.html">Home</a>
+    </nac>
+  </header>
+  
+  <div class="container"><!--container-->
+
+    <form class="form-group" onsubmit="return validateForm()" required><!--form-->
+        
+
+        <div id="form"><!--form-->
+            <h2 class="text-black"><strong>Details</strong></h2>
+            <br>
+        <div id="input">
+            <input type="text" id="input-group" name="FullName" placeholder="Full Name" required>
+            <input type="text" id="input-group" name="Email" placeholder="Email" required><br>
+            <br>
+            <input type="date" id="input-group" name="Date" placeholder="Date and Time" required>
+            <input type="time" id="input-group" name="Time" placeholder="hh:mm" required><br>
+            <br>
+            <input type="text" id="input-group" name="City" placeholder="City">
+            <input type="text" id="input-group" name="AnyMessage" placeholder="Any Message"><br>
+            </div>
+                <br>
+            <div id="input5"><!--input5-->
+            <h2 class="text-black" name="PaymentDetails"><strong>Payment Details</strong></h2>
+            </div><!--input5-->
+            <br>
+            <div id="input">
+            <select  id="input-group" style="background: rgb(250, 250, 250);" >
+                <option value="AcceptedCards" required>Accepted Cards</option>
+                <option value="">VISA</option>
+                <option value="">MasterCard</option>
+                <option value="">American Express</option>
+                <option value="">Axis Bank</option>
+            </select>
+            
+            <input type="text" id="input-group" name="Nameoncard" placeholder="Name On Card" required><br>
+            <br>
+            <input type="text" id="input-group" name="Creditcardnumber" placeholder="Credit Card Number" required>
+            <input type="text" id="input-group" name="expmonth" placeholder="Exp. Month" required><br>
+            <br>
+            <input type="year" id="input-group" name="expyear" placeholder="Exp.Year" required>
+            <input type="number" id="input-group" name="CVV" placeholder="CVV" required><br>
+            
+        </div>
+            <div id="buttons">
+            <a href="PaymentSuccessfulPage.html" class="btn"> PAY </a>
+            <input type="reset" class="btn btn-primary" value="Clear Form"></input>
+            </div>
+
+        </div><!--form-->
+
+    </form><!--form-->
+
+</div><!--container-->
+<!-- <script src="Payment.js"></script> -->
+</body>
+</html>

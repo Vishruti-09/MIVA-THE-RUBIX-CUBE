@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIVA - Medical Intelligiance Virtual Assistant </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="BookingAppointment.css">
+
+    <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>    
+    <header class="header">
+        <a href="#" class="logo"><img src="MIVALOGO.jpeg" height="auto" width="40%"></a>
+        <nac class="navigation">
+      <a href="ContactUs.html">Contact Us</a>
+      <a href="Reviews.html">Reviews</a>
+      <a href="MIVALOGIN.html">Login</a>
+      <a href="Doctors.html">Doctors</a>
+      <a href="AboutUs.html">About Us</a>
+      <a href="Services.html">Services</a>
+      <a href="index.html">Home</a>
+        </nac>
+      </header>
+
+    <div class="container"><!--container-->
+
+        <form class="form-group" onsubmit="return validateForm()" required><!--form-->
+            <center><h1 class="text-center"><strong>Book An Appointment</strong></h1></center>
+
+            <div id="form"><!--form-->
+                <h2 class="text-black"><strong>Booking Details</strong></h2>
+                <br>
+            <div id="input"><!--input-->
+                <input type="text" id="input-group" placeholder="Name">
+                <input type="email" id="input-group" placeholder="Email"><br>
+                <br>
+                <input type="number" id="input-group" placeholder="Contact Number"><br>
+                <br>
+                <input type="date" id="input-group" name="Date" placeholder="dd-mm-yyyy" required>
+                <input type="time" id="input-group" name="Time" placeholder="Time(am/pm)" required><br>
+                <br>
+                <select  id="input-group" style="background: rgb(250, 250, 250);">
+                    <option value="">Hospital Name</option>
+                    <option value="">The Headling Clinic</option>
+                    <option value="">True Health Solutions</option>
+                    <option value="">Lifecare Hospital</option>
+                    <option value="">Healthyify Hospital</option>
+                    <option value="">Neo Hospital</option>
+                    <option value="">Apex Hospital</option>
+                    <option value="">Sunshine Hospital</option>
+                    <option value="">LMT Hospital</option>
+                    <option value="">City Hospital</option>
+                    <option value="">Wellness Hospital</option>
+                    <option value="">Blessed Hospital</option>
+                    <option value="">Lifeline Hospital</option>
+                    <option value="">Horizon Hospital</option>
+                </select><br>
+                <br>
+                <select  id="input-group" style="background: rgb(250, 250, 250);">
+                    <option value="">Doctor Name</option>
+                    <option value="">Cardiologist- DR.Shivani Bharadwaj</option>
+                    <option value="">Neurologist- DR.Mehek Sinha</option>
+                    <option value="">Podiatrist- DR.Aditya Soni</option>
+                    <option value="">Neurologist- DR.Mehek Sinha</option>
+                    <option value="">Dietician & Nutritian- DR.Yatra Verma</option>
+                    <option value="">Endocrinologist- DR.Ranjana Modi</option>
+                    <option value="">Allergist/Immunologist- DR.John Deo</option>
+                    <option value="">ENT- DR.Enaisha D'mello</option>
+                    <option value="">Physician- DR.Kabeer Khosla</option>
+                    <option value="">Urologist- DR.Avantika Sharma</option>
+                    <option value="">Pedatrician- DR.Ruchika Mehta</option>
+                    <option value="">Gastroenterologist- DR.Nishant Jamba</option>
+                    <option value="">Dermatologist- DR.Nidhi Bharkhada</option>
+                    <option value="">Counsellor- DR.Rhea Khanna</option>
+                    <option value="">Physician- DR.Ranbir Kohli</option>
+                    <option value="">Diabetologist- DR.Vishruti Bajaj</option>
+                </select><br>
+                <br>
+                </div><!--input-->
+
+                <div id="input2"><!--input2-->
+                    <select  id="input-group" style="background: rgb(253, 253, 253);">
+                        <option value="PatientAge" required>Patient Age</option>
+                        <option value="">Adult (18+)</option>
+                        <option value="">Young Adult (13-18)</option>
+                        <option value="">Infant</option>
+                </div><!--input2-->
+                
+                <div id="input4"><!--input4-->
+                    <input type="text" id="input-group1" name="AnyMessage" placeholder="Any Message">
+                </div><!--input4-->
+                    <br>
+                <div id="buttons">
+                <a href="Payment.html" class="btn btn-primary"> PAY </a>
+                <input type="reset" class="btn btn-primary" value="Clear Form"></input>
+                <a href="reportsUpload.html" class="btn btn-primary"> Upload Report </a>
+                </div>
+            </div><!--form-->
+
+        </form><!--form-->
+
+    </div><!--container-->
+<!-- <script src="BookingAppointment.js"></script> -->
+</body>
+</html>
